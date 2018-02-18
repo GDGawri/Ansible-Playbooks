@@ -2,7 +2,7 @@
 ---
 # Playbook for NTP Application
 - name: NTP Application setup
-  hosts: managed2
+  hosts: managed, managed2
 
 # Tasks for NTP Application
   tasks:
